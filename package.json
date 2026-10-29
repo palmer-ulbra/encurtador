@@ -1,0 +1,16 @@
+{
+  "name": "encurtador",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "seed": "node --disable-warning=ExperimentalWarning scripts/seed.js",
+    "sql": "node --disable-warning=ExperimentalWarning scripts/sql.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
